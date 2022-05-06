@@ -1,4 +1,3 @@
-
 /*Index*/
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Palette+Mosaic&display=swap');
@@ -43,7 +42,7 @@
   
   nav {
     text-align: center; }
-    nav .dropdown-menu a {
+    nav a {
       background-color: black;
       color: yellow;
       font-size: large;
@@ -53,7 +52,7 @@
       font-family: 'Oswald', sans-serif;
       display: flex;
       justify-content: center; }
-      nav .dropdown-menu a:hover {
+      nav a .dropdown-menu a:hover {
         color: white; }
 
 h1 {
