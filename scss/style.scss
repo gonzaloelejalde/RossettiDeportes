@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 @import "partials/footer";
 @import "partials/dropdown";
 @import "partials/header";
@@ -5,9 +12,3 @@
 @import "sass2/extend";
 @import "sass2/maps";
 @import "sass2/mixins";
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
