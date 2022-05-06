@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Rossetti Deportes</title>
+</head>
+
+<body>
+    <h1>Contacto</h1>
+
+    <header>
+        <nav>
+            <li>
+                <a href="../index.html" class="menu">Menú</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="boton" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Deportes
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="futbol.html">Futbol</a>
+                        <a class="dropdown-item" href="basquet.html">Basquet</a>
+                        <a class="dropdown-item" href="hockey.html">Hockey</a>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="dropdown">
+                    <button class="boton" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        Informacion
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="sobrenosotros.html">Sobre Nosotros</a>
+                        <a class="dropdown-item" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </li>
+        </nav>
+    </header>
+
+
+    <form>
+        <fieldset>
+            <label class="label" for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Escriba su nombre aquí" />
+        </fieldset>
+
+        <fieldset>
+            <label class="label" for="apellido">Apellido: </label>
+            <input type="text" name="apellido" placeholder="Escriba su apellido aquí" />
+        </fieldset>
+
+        <fieldset>
+            <label class="label" for="E-mail">E-mail: </label>
+            <input type="text" name="e-mail" placeholder="Escriba su E-mail aquí" />
+        </fieldset>
+
+        <fieldset>
+            <label class="label">Estado civil: </label>
+            <select name="Estado civil: ">
+                <option value="S">Soltero/a</option>
+                <option value="C">Casado/a</option>
+                <option value="D">Divorciado/a</option>
+                <option value="V">Viudo/a</option>
+            </select>
+        </fieldset>
+
+        <label class="label">
+            <ul>
+                <li class="news">Desea recibir el Newsletter? <input type="radio" value="Desea recibir el Newsletter" />
+                </li>
+        </label>
+        <li><textarea class="area" name="texto" rows="15" cols="50" placeholder="Comentarios"></textarea></li>
+        </ul>
+
+        <input type="reset" value="Limpiar formulario" />
+        <input type="submit" value="Enviar formulario" />
+    </form>
+    <div class="grid-container-footer">
+        <footer>
+            <address>
+                Seguinos en nuestras redes: <a href="https://www.linkedin.com/feed/">Linkedin /</a>
+                <a href="https://twitter.com/">Twitter /</a>
+                <a href="https://es-la.facebook.com/">Facebook</a>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>
