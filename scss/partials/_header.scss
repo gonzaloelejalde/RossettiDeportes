@@ -2,7 +2,7 @@ $color: yellow;
 
 nav {
     text-align: center;
-    nav a {
+    a {
         background-color: black;
         color: yellow;
         font-size: large;
@@ -12,10 +12,8 @@ nav {
         font-family: 'Oswald', sans-serif;
         display: flex;
         justify-content: center;
-        .dropdown-menu a{
-            &:hover {
-                color: white;
-            }
-        }
+        &:hover {
+            color: white;
+        }       
     }
 }
