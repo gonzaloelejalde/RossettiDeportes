@@ -1,0 +1,19 @@
+$color: yellow;
+
+nav {
+    text-align: center;
+    nav a {
+        background-color: black;
+        color: yellow;
+        font-size: large;
+        border: 1px solid $color;
+        padding: 5px;
+        margin: 5px 10px 15px 20px;
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        justify-content: center;
+        &:hover {
+            color: white;
+        }
+    }
+}

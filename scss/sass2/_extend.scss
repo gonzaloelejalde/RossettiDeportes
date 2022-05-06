@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+.dropdown {
+    background-color: $negro;
+    color: $amarillo;
+    font-size: $font-sizedropdown;
+    border: $borderdropdown;
+    padding: $paddingdropdown;
+    margin: $margindropdown;
+    font-family: $font-familydropdown;
+    display: $displaydropdown;
+    justify-content: $justify-contentdropdown;
+}

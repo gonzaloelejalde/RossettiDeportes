@@ -1,0 +1,19 @@
+$color: yellow;
+
+footer{
+    text-align: right;
+    background-color: black;
+    color: $color;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    grid-area: footer;
+    margin-right: 20px;
+    address a{
+        text-decoration: none;
+        color: $color;
+        font-family: 'Oswald', sans-serif;
+        &:hover{
+            color: white;
+        }
+    }
+}
