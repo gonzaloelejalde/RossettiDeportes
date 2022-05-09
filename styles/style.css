@@ -233,11 +233,14 @@ fieldset {
     text-decoration: none;
     color: yellow;
 }
+.e-mail:hover{
+    color: white;
+}
 
 .fieldset {
     border: solid yellow;
     border-style: double;
-    padding: 10px;
+    padding: 40px;
 }
 
 .p1 {
@@ -268,7 +271,7 @@ fieldset {
 }
 
 .ubi {
-    margin-top: 15px;
+    margin-top: 20px;
     height: 500px;
     width: 400px;
     margin-left: 170px;
@@ -281,18 +284,37 @@ fieldset {
     margin-bottom: 50px;
 }
 
+.ul-nosotros{
+    width: 200px;
+    height: 200px;
+}
+/*Separacion de los datos*/
+
+.provincia{
+    margin-bottom: 15px;
+}
+.sede{
+    margin-bottom: 15px;
+}
+.otros-locales{
+    margin-bottom: 15px;
+}
+
 /*Grid Nosotros*/
 
 .grid-nosotros {
     display: grid;
 
-    grid-template-columns: repeat(2, 25%);
+    grid-template-columns: repeat(2, 10%);
 
-    grid-template-rows: repeat(2, 70px);
+    grid-template-rows: repeat(4, 70px);
 
     grid-template-areas:
         "noticia-1 noticia-2"
         "noticia-1 noticia-2"
+        "noticia-1 noticia-2"
+        "noticia-1 noticia-2"
+
     ;
     justify-content: center;
     grid-column-gap: 250px;
@@ -301,12 +323,13 @@ fieldset {
 .datos {
     grid-area: noticia-1;
     background-color: black;
-    height: 10px;
+    width: 50px;
 }
 
 .preguntas {
     grid-area: noticia-2;
     background-color: white;
+    width: 50px;
 }
 
 
