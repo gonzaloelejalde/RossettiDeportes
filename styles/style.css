@@ -164,6 +164,8 @@ fieldset {
     border: 5px solid yellow;
     border-style: double;
     background-color: black;
+    width: 0px;
+    padding: 10px;
 }
 
 .footercontacto {

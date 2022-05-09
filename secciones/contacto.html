@@ -47,41 +47,46 @@
 
     <form>
         <fieldset>
-            <label class="label" for="nombre">Nombre: </label>
-            <input type="text" name="nombre" placeholder="Escriba su nombre aquí" />
-        </fieldset>
 
-        <fieldset>
-            <label class="label" for="apellido">Apellido: </label>
-            <input type="text" name="apellido" placeholder="Escriba su apellido aquí" />
-        </fieldset>
+            <div>
+                <label class="label" for="nombre">Nombre: </label>
+                <input type="text" name="nombre" placeholder="Escriba su nombre aquí" />
+            </div>
 
-        <fieldset>
-            <label class="label" for="E-mail">E-mail: </label>
-            <input type="text" name="e-mail" placeholder="Escriba su E-mail aquí" />
-        </fieldset>
+            <div>
+                <label class="label" for="apellido">Apellido: </label>
+                <input type="text" name="apellido" placeholder="Escriba su apellido aquí" />
+            </div>
 
-        <fieldset>
-            <label class="label">Estado civil: </label>
-            <select name="Estado civil: ">
-                <option value="S">Soltero/a</option>
-                <option value="C">Casado/a</option>
-                <option value="D">Divorciado/a</option>
-                <option value="V">Viudo/a</option>
-            </select>
-        </fieldset>
+            <div>
+                <label class="label" for="E-mail">E-mail: </label>
+                <input type="text" name="e-mail" placeholder="Escriba su E-mail aquí" />
+            </div>
 
-        <label class="label">
-            <ul>
-                <li class="news">Desea recibir el Newsletter? <input type="radio" value="Desea recibir el Newsletter" />
-                </li>
-        </label>
-        <li><textarea class="area" name="texto" rows="15" cols="50" placeholder="Comentarios"></textarea></li>
-        </ul>
+            <div>
+                <label class="label">Estado civil: </label>
+                <select name="Estado civil: ">
+                    <option value="S">Soltero/a</option>
+                    <option value="C">Casado/a</option>
+                    <option value="D">Divorciado/a</option>
+                    <option value="V">Viudo/a</option>
+                </select>
+            </div>
+
+            <label class="label">
+                <ul>
+                    <li class="news">Desea recibir el Newsletter? <input type="radio"
+                            value="Desea recibir el Newsletter" />
+                    </li>
+            </label>
+            <li><textarea class="area" name="texto" rows="15" cols="50" placeholder="Comentarios"></textarea></li>
+            </ul>
+        </fieldset>
 
         <input type="reset" value="Limpiar formulario" />
         <input type="submit" value="Enviar formulario" />
     </form>
+
     <div class="grid-container-footer">
         <footer>
             <address>
