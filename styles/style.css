@@ -106,7 +106,7 @@
 
 
 html {
-    background-image: linear-gradient(to right, white, red, orange, red, white);
+    background-image: linear-gradient(to right, #6e0602, #6e0602)
 }
 
 .carrusel {
@@ -151,6 +151,9 @@ html {
     margin-left: 5px;
 }
 
+.caja-contenedoraBFH{
+    width: 230px;
+}
 /*Contacto*/
 
 .label {
@@ -218,7 +221,7 @@ fieldset {
     border: 5px solid yellow;
     width: 200px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -453,7 +456,7 @@ fieldset {
         justify-content: center;
         grid-row-gap: 20px;
         width: 50px;
-        margin-left: 135px;
+        margin-left: 150px;
     }
 
     .logo {
@@ -473,6 +476,7 @@ fieldset {
     .preguntas {
         grid-area: noticia-2;
         background-color: white;
+        margin-top: 100px;
     }
 
     .e-mail {
@@ -507,7 +511,7 @@ fieldset {
     }
 
     .nuestraubicacion {
-        margin-top: 65px;
+        margin-top: 190px;
         color: yellow;
     }
 
