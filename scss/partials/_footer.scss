@@ -1,13 +1,14 @@
 $color: yellow;
 
 footer{
-    text-align: right;
-    background-color: black;
     color: $color;
     font-size: large;
     font-family: 'Oswald', sans-serif;
-    grid-area: footer;
-    margin-right: 20px;
+    margin-top: 15px;
+    border: 3px solid yellow;
+    border-style: double;
+    background-color: black;
+    width: 410px;
     address a{
         text-decoration: none;
         color: $color;
