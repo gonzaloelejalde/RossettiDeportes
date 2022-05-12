@@ -1,0 +1,12 @@
+@import "../variables/variables";
+
+.tabla {
+    font-size: larger;
+    background-color: $negro;
+    color: $amarillo;
+    border: 5px dashed;
+    font-family: 'Oswald', sans-serif;
+    padding: 70px;
+    margin-left: 110px;
+    width: 300px;
+}

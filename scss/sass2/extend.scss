@@ -1,5 +1,6 @@
 @import "../variables/variables";
 
+
 .dropdown {
     background-color: $negro;
     color: $amarillo;
@@ -7,7 +8,28 @@
     border: $borderdropdown;
     padding: $paddingdropdown;
     margin: $margindropdown;
-    font-family: $font-familydropdown;
     display: $displaydropdown;
     justify-content: $justify-contentdropdown;
+}
+
+.video{
+border: $borderV;
+width: $widthV;
+height: $heightV;
+margin-left: $margin-leftV;
+margin-top: $margin-topV;
+}
+
+.boton {
+    background-color: $negro;
+    color: $amarillo;
+}
+
+html {
+    background-image: $HTML;
+}
+
+.carrusel {
+    margin-left: $leftCarrusel;
+    margin-top: $topCarrusel;
 }

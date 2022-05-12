@@ -1,0 +1,19 @@
+@import "../variables/variables";
+
+.caja-contenedora {
+    border: 5px solid yellow;
+    border-style: double;
+    margin-right: 50px;
+}
+
+.caja-hija {
+    height: 350px;
+    width: 400px;
+    background-color: black;
+}
+.caja-hija .caja-parrafo {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: yellow;
+    padding: 30px;
+}

@@ -5,10 +5,15 @@
     list-style: none;
 }
 
-@import "partials/footer";
-@import "partials/dropdown";
-@import "partials/header";
 @import "variables/variables";
+
 @import "sass2/extend";
 @import "sass2/maps";
 @import "sass2/mixins";
+
+@import "partials/footer";
+@import "partials/header";
+@import "partials/tabla";
+@import "partials/noticia1";
+@import "partials/flexindex";
+@import "partials/titulo";
