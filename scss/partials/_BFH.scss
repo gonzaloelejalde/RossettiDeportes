@@ -1,0 +1,18 @@
+.caja-contenedoraBFH {
+    margin-top: 15px;
+    border: 3px solid yellow;
+    border-style: double;
+    background-color: black;
+    margin-left: 100px;
+    width: 230px;
+}  
+.caja-hijaBFH {
+    height: 25px;
+    background-color: black;
+}
+.caja-hijaBFH .caja-parrafoBFH {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    color: yellow;
+    margin-left: 5px;
+}

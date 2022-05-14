@@ -1,0 +1,75 @@
+@media screen and (max-width:980px) {
+
+    .grid-nosotros {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 250px;
+    }
+    .datos {
+        background-color: black;
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .preguntas {
+        background-color: white;
+        width: 50px;
+    }
+    .ubi2 {
+        width: 0px;
+        height: 0px;
+        margin-left: 0px;
+    }
+    
+    .ubi {
+        margin-top: 0px;
+        height: 0px;
+        width: 0px;
+        margin-left: 0px;
+    }
+    
+    .logo {
+        height: 0px;
+        width: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .ul-nosotros{
+        width: 200px;
+        height: 200px;
+    }
+    .nuestraubicacion{
+        margin-top: 300px;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .noticia-2{
+        margin-bottom: 10px;
+        width: 500px;
+    }
+    .swiffy-slider{
+        width: 0px;
+        height: 0px;
+    }
+    .slider-indicators{
+        width: 0px;
+        height: 0px;
+    }
+    
+    .video{
+        width: 0px;
+        height: 0px;
+        border: 0px solid yellow;
+    }
+    .tabla{
+    margin-left: 20px;
+    padding: 83px;
+    }
+    footer{
+        margin-top: 375px;
+    }
+}

@@ -1,0 +1,59 @@
+.e-mail {
+    text-decoration: none;
+    color: yellow;
+    &:hover{
+    color: white;
+    }
+}
+
+.maps {
+    text-decoration: none;
+    color: yellow;
+    text-align: left;
+    &:hover {
+    color: white;
+    }
+}
+
+.nuestraubicacion {
+    margin-top: 5px;
+    background-color: black;
+    color: yellow;
+    border: 3px solid yellow;
+    border-style: double;
+    width: 130px;
+}
+
+.fieldset {
+    border: solid yellow;
+    border-style: double;
+    padding: 50px;
+}
+
+.p1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+
+.p3 {
+    margin-top: 5px;
+}
+
+.ul-nosotros{
+    width: 200px;
+    height: 200px;
+}
+
+.provincia{
+    margin-bottom: 15px;
+}
+
+.sede{
+    margin-bottom: 15px;
+}
+
+.otros-locales{
+    margin-bottom: 15px;
+}

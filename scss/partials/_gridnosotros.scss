@@ -1,0 +1,26 @@
+.grid-nosotros {
+    display: grid;
+
+    grid-template-columns: repeat(2, 15%);
+
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas:
+    "noticia-1 noticia-2"
+    "noticia-1 noticia-2"
+    "noticia-1 noticia-2"
+    ;
+    justify-content: center;
+    grid-column-gap: 250px;
+}
+
+.datos {
+    grid-area: noticia-1;
+    background-color: black;
+}
+
+.preguntas {
+    grid-area: noticia-2;
+    background-color: white;
+    height: 0px;
+}

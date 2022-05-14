@@ -1,0 +1,30 @@
+@import "../variables/variables";
+@import "../sass2/mixins.scss";
+
+.imgbasquet{
+    @include imgbasquet;
+}
+
+.img1{
+    @include img1;
+}
+
+.imgfutbol{
+    @include imgfutbol;
+}
+
+.imghockey{
+    @include imghockey;
+}
+
+.ubi{
+    @include ubi;
+}
+
+.ubi2{
+    @include ubi2;
+}
+
+.logo{
+    @include logo;
+}

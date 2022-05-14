@@ -32,22 +32,6 @@ html {
   margin-left: 737px;
   margin-top: 15px; }
 
-footer {
-  color: yellow;
-  font-size: large;
-  font-family: 'Oswald', sans-serif;
-  margin-top: 15px;
-  border: 3px solid yellow;
-  border-style: double;
-  background-color: black;
-  width: 410px; }
-  footer address a {
-    text-decoration: none;
-    color: yellow;
-    font-family: 'Oswald', sans-serif; }
-    footer address a:hover {
-      color: white; }
-
 nav {
   text-align: center; }
   nav a {
@@ -63,15 +47,18 @@ nav {
     nav a:hover {
       color: white; }
 
-.tabla {
-  font-size: larger;
-  background-color: black;
-  color: yellow;
-  border: 5px dashed;
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
   font-family: 'Oswald', sans-serif;
-  padding: 70px;
-  margin-left: 110px;
-  width: 300px; }
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 375px; }
 
 .caja-contenedora {
   border: 5px solid yellow;
@@ -89,18 +76,48 @@ nav {
   color: yellow;
   padding: 30px; }
 
-.flex-container {
-  display: flex;
-  justify-content: space-evenly;
-  height: 375px; }
-
-h1 {
-  text-align: center;
-  margin-bottom: 15px;
-  font-family: 'Oswald', sans-serif;
+.tabla {
+  font-size: larger;
+  background-color: black;
   color: yellow;
-  font-weight: bold;
-  text-decoration: underline; }
+  border: 5px dashed;
+  font-family: 'Oswald', sans-serif;
+  padding: 70px;
+  margin-left: 110px;
+  width: 300px; }
+
+footer {
+  color: yellow;
+  font-size: large;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 15px;
+  border: 3px solid yellow;
+  border-style: double;
+  background-color: black;
+  width: 410px; }
+  footer address a {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Oswald', sans-serif; }
+    footer address a:hover {
+      color: white; }
+
+.footercontacto {
+  text-align: right;
+  background-color: black;
+  color: yellow;
+  font-size: large;
+  margin-right: 50px;
+  font-family: 'Oswald', sans-serif; }
+
+.footerfutbol {
+  text-align: right;
+  margin-top: 100px;
+  background-color: black;
+  color: yellow;
+  font-size: large;
+  margin-right: 50px;
+  font-family: 'Oswald', sans-serif; }
 
 .imgbasquet {
   border: 5px solid yellow;
@@ -111,329 +128,229 @@ h1 {
   margin-left: 100px; }
 
 .img1 {
-    width: 200px;
-    height: 250px;
-    margin-left: 100px;
-    margin-top: 15px;
-  }
-  
-.caja-contenedoraBFH {
-    margin-top: 15px;
-    border: 3px solid yellow;
-    border-style: double;
-    background-color: black;
-    margin-left: 100px;
-    width: 230px;
-  }
-  
-.caja-hijaBFH {
-    height: 25px;
-    background-color: black;
-  }
-  
-.caja-hijaBFH .caja-parrafoBFH {
-    font-family: 'Roboto Mono', monospace;
-    text-align: left;
-    color: yellow;
-    margin-left: 5px;
-  }
-  /*Contacto*/
-  
-.label {
-    margin: 5px;
-    color: yellow;
-    font-family: 'Roboto Mono', monospace;
-    background-color: black;
-  }
-  
-fieldset {
-    border: 5px solid yellow;
-    border-style: double;
-    background-color: black;
-    width: 0px;
-    padding: 10px;
-  }
-  
-.footercontacto {
-    text-align: right;
-    background-color: black;
-    color: yellow;
-    font-size: large;
-    margin-right: 50px;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-.news {
-    background-color: black;
-    margin-bottom: 15px;
-  }
-  
-  /*Futbol*/
-  
+  width: 200px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 15px; }
+
 .imgfutbol {
-    border: 5px solid yellow;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  
-.footerfutbol {
-    text-align: right;
-    margin-top: 100px;
-    background-color: black;
-    color: yellow;
-    font-size: large;
-    margin-right: 50px;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  /*Hockey*/
-  
+  border: 5px solid yellow;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px; }
+
 .imghockey {
-    border: 5px solid yellow;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  
-  /*Sobre Nosotros*/
-  
-.nuestraubicacion {
-    margin-top: 5px;
-  }
-  
-.e-mail {
-    text-decoration: none;
-    color: yellow;
-  }
-.e-mail:hover{
-    color: white;
-  }
-  
-.fieldset {
-    border: solid yellow;
-    border-style: double;
-    padding: 50px;
-  }
-  
-.p1 {
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    color: yellow;
-    background-color: black;
-  }
-  
-.p3 {
-    margin-top: 5px;
-  }
-  
-.maps {
-    text-decoration: none;
-    color: yellow;
-    text-align: left;
-  }
-  
-.maps:hover {
-    color: white;
-  }
-  
-.ubi2 {
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-  }
-  
+  border: 5px solid yellow;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px; }
+
 .ubi {
-    margin-top: 20px;
-    height: 500px;
-    width: 400px;
-    margin-left: 170px;
-  }
-  
+  margin-top: 20px;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px; }
+
+.ubi2 {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px; }
+
 .logo {
-    height: 400px;
-    width: 400px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-  }
-  
-.ul-nosotros{
-    width: 200px;
-    height: 200px;
-  }
-  
-.provincia{
-    margin-bottom: 15px;
-  }
-.sede{
-    margin-bottom: 15px;
-  }
-.otros-locales{
-    margin-bottom: 15px;
-  }
-  
-  /*Grid Nosotros*/
-  
+  height: 400px;
+  width: 400px;
+  margin-left: 60px;
+  margin-bottom: 50px; }
+
+.caja-contenedoraBFH {
+  margin-top: 15px;
+  border: 3px solid yellow;
+  border-style: double;
+  background-color: black;
+  margin-left: 100px;
+  width: 230px; }
+
+.caja-hijaBFH {
+  height: 25px;
+  background-color: black; }
+
+.caja-hijaBFH .caja-parrafoBFH {
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  color: yellow;
+  margin-left: 5px; }
+
+.label {
+  margin: 5px;
+  color: yellow;
+  font-family: 'Roboto Mono', monospace;
+  background-color: black; }
+
+fieldset {
+  border: 5px solid yellow;
+  border-style: double;
+  background-color: black;
+  width: 0px;
+  padding: 10px; }
+
+.news {
+  background-color: black;
+  margin-bottom: 15px; }
+
+.e-mail {
+  text-decoration: none;
+  color: yellow; }
+  .e-mail:hover {
+    color: white; }
+
+.maps {
+  text-decoration: none;
+  color: yellow;
+  text-align: left; }
+  .maps:hover {
+    color: white; }
+
+.nuestraubicacion {
+  margin-top: 5px;
+  background-color: black;
+  color: yellow;
+  border: 3px solid yellow;
+  border-style: double;
+  width: 130px; }
+
+.fieldset {
+  border: solid yellow;
+  border-style: double;
+  padding: 50px; }
+
+.p1 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: yellow;
+  background-color: black; }
+
+.p3 {
+  margin-top: 5px; }
+
+.ul-nosotros {
+  width: 200px;
+  height: 200px; }
+
+.provincia {
+  margin-bottom: 15px; }
+
+.sede {
+  margin-bottom: 15px; }
+
+.otros-locales {
+  margin-bottom: 15px; }
+
 .grid-nosotros {
-    display: grid;
-  
-    grid-template-columns: repeat(2, 15%);
-  
-    grid-template-rows: repeat(3, 1fr);
-  
-    grid-template-areas:
-        "noticia-1 noticia-2"
-        "noticia-1 noticia-2"
-        "noticia-1 noticia-2"
-  
-    ;
-    justify-content: center;
-    grid-column-gap: 250px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(2, 15%);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "noticia-1 noticia-2" "noticia-1 noticia-2" "noticia-1 noticia-2";
+  justify-content: center;
+  grid-column-gap: 250px; }
+
 .datos {
-    grid-area: noticia-1;
-    background-color: black;
-  }
-  
+  grid-area: noticia-1;
+  background-color: black; }
+
 .preguntas {
-    grid-area: noticia-2;
-    background-color: white;
-    height: 0px;
-  }
-  
-  /*Sobre Nosotros*/
-  
-  @media screen and (max-width:980px) {
-  
-.grid-nosotros {
+  grid-area: noticia-2;
+  background-color: white;
+  height: 0px; }
+
+@media screen and (max-width: 599px) {
+  .datos {
+    margin-bottom: 10px;
+    margin-left: 45px; } }
+
+@media screen and (max-width: 980px) {
+  .grid-nosotros {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 250px;
-  }
-.datos {
+    margin-right: 250px; }
+  .datos {
     background-color: black;
     width: 50px;
-  }
-  
-.preguntas {
+    margin-right: 15px; }
+  .preguntas {
     background-color: white;
-    width: 50px;
-  }
-.ubi2 {
+    width: 50px; }
+  .ubi2 {
     width: 0px;
     height: 0px;
-    margin-left: 0px;
-  }
-  
-.ubi {
+    margin-left: 0px; }
+  .ubi {
     margin-top: 0px;
     height: 0px;
     width: 0px;
-    margin-left: 0px;
-  }
-  
-.logo {
+    margin-left: 0px; }
+  .logo {
     height: 0px;
     width: 0px;
     margin-left: 0px;
-    margin-bottom: 0px;
-  }
-  
-.ul-nosotros{
+    margin-bottom: 0px; }
+  .ul-nosotros {
     width: 200px;
-    height: 200px;
-  }
-.nuestraubicacion{
-    margin-top: 300px;
-  }
-  }
-  
-@media screen and (max-width:599px){
-  .datos {
-        margin-bottom: 10px;
-        margin-left: 45px;
-    }
-  }
-  
-@media screen and (max-width:1629px){
-  .ubi2 {
-        width: 0px;
-        height: 0px;
-        margin-left: 0px;
-    }
-    
-  .ubi {
-        margin-top: 0px;
-        height: 0px;
-        width: 0px;
-        margin-left: 0px;
-    }
-    
-  .logo {
-        height: 0px;
-        width: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-    }
-  }
-  
-  /*Index*/
-  
-@media screen and (max-width:980px) {
-  .grid-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-  .noticia-2{
-        margin-bottom: 10px;
-        width: 500px;
-    }
-  .swiffy-slider{
-        width: 0px;
-        height: 0px;
-    }
-  .slider-indicators{
-        width: 0px;
-        height: 0px;
-    }
-  .video{
-        width: 0px;
-        height: 0px;
-        border: 0px solid yellow;
-    }
-  .tabla{
+    height: 200px; }
+  .nuestraubicacion {
+    margin-top: 300px; }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap; }
+  .noticia-2 {
+    margin-bottom: 10px;
+    width: 500px; }
+  .swiffy-slider {
+    width: 0px;
+    height: 0px; }
+  .slider-indicators {
+    width: 0px;
+    height: 0px; }
+  .video {
+    width: 0px;
+    height: 0px;
+    border: 0px solid yellow; }
+  .tabla {
     margin-left: 20px;
-    padding: 83px;
-    }
-  footer{
-        margin-top: 375px;
-    }
-}
+    padding: 83px; }
+  footer {
+    margin-top: 375px; } }
 
-@media screen and (max-width:1629px) {
-  .swiffy-slider{
-        width: 0px;
-        height: 0px;
-    }
-  .slider-indicators{
-        width: 0px;
-        height: 0px;
-    }
-  .video{
-        width: 0px;
-        height: 0px;
-        border: 0px solid yellow;
-    }
-  .tabla{
+@media screen and (max-width: 1629px) {
+  .ubi2 {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px; }
+  .ubi {
+    margin-top: 0px;
+    height: 0px;
+    width: 0px;
+    margin-left: 0px; }
+  .logo {
+    height: 0px;
+    width: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px; }
+  .swiffy-slider {
+    width: 0px;
+    height: 0px; }
+  .slider-indicators {
+    width: 0px;
+    height: 0px; }
+  .video {
+    width: 0px;
+    height: 0px;
+    border: 0px solid yellow; }
+  .tabla {
     margin-left: 20px;
-    padding: 83px;
-    }
-  footer{
-        text-align: left;
-    }
-}
+    padding: 83px; }
+  footer {
+    text-align: left; } }

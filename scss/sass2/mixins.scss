@@ -14,3 +14,49 @@
     margin-right: 100px;
     margin-left: 100px;
 }
+
+
+@mixin img1 {
+    width: 200px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+@mixin imgfutbol {
+        border: 5px solid yellow;
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 100px;
+}
+
+@mixin imghockey {
+    border: 5px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+@mixin ubi {
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    margin-left: 170px;
+}
+
+@mixin ubi2 {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+@mixin logo {
+    height: 400px;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
