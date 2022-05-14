@@ -1,7 +1,7 @@
 {
   "name": "rossettideportes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de ropa deportiva",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/style.scss styles/style.css",
