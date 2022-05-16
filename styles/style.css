@@ -32,6 +32,10 @@ html {
   margin-left: 737px;
   margin-top: 15px; }
 
+.container-footer {
+  background-color: linear-gradient(to right, #6e0602, #6e0602);
+  text-align: left; }
+
 /*Index*/
 nav {
   text-align: center; }

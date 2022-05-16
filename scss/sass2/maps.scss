@@ -1,13 +1,11 @@
-// @import "../variables/variables";
+@import "../variables/variables";
 
-// $footer:(color-fondo: $negro,
-//     fSize: $size,
-//     //font size
-//     color-de-letra: $amarillo,
-//     alinear-a-la-derecha: $right,
-// );
 
-// div {
-//     background-color: map-get($footer, $color-fondo);
-//     text-align: map-get($footer, $alinear-a-la-derecha);
-// }
+$footer:( color-fondo: linear-gradient(to right, #6e0602, #6e0602),
+    alinear-a-la-izquierda: left,
+);
+
+.container-footer {
+    background-color: map-get($footer, color-fondo);
+    text-align: map-get($footer, alinear-a-la-izquierda);
+}
