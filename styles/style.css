@@ -32,6 +32,7 @@ html {
   margin-left: 737px;
   margin-top: 15px; }
 
+/*Index*/
 nav {
   text-align: center; }
   nav a {
@@ -86,6 +87,7 @@ h1 {
   margin-left: 110px;
   width: 300px; }
 
+/*Footer*/
 footer {
   color: yellow;
   font-size: large;
@@ -119,6 +121,7 @@ footer {
   margin-right: 50px;
   font-family: 'Oswald', sans-serif; }
 
+/*Imagenes*/
 .imgbasquet {
   border: 5px solid yellow;
   width: 200px;
@@ -166,6 +169,7 @@ footer {
   margin-left: 60px;
   margin-bottom: 50px; }
 
+/*Futbol,Basquet,Hockey*/
 .caja-contenedoraBFH {
   margin-top: 15px;
   border: 3px solid yellow;
@@ -184,6 +188,7 @@ footer {
   color: yellow;
   margin-left: 5px; }
 
+/*Contacto*/
 .label {
   margin: 5px;
   color: yellow;
@@ -201,6 +206,7 @@ fieldset {
   background-color: black;
   margin-bottom: 15px; }
 
+/*Sobre nosotros*/
 .e-mail {
   text-decoration: none;
   color: yellow; }
@@ -266,6 +272,7 @@ fieldset {
   background-color: white;
   height: 0px; }
 
+/*Media screen*/
 @media screen and (max-width: 599px) {
   .datos {
     margin-bottom: 10px;
